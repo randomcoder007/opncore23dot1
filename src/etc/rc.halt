@@ -1,0 +1,7 @@
+#!/bin/sh
+
+/usr/local/etc/rc.syshook stop
+
+/sbin/shutdown -op now
+
+while :; do sleep 1; done
